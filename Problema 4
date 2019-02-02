@@ -1,0 +1,17 @@
+# TareaIPC
+Tarea IPC1
+Inicio Solicitar
+
+   Var num_uno
+   Var num_dos
+
+   Escribir"Dame un número par: "
+   Leer(num_uno)
+
+    Para(num_dos = 0)
+    Para(num_dos<=num_uno)
+    Para(num_dos=2)
+         Entonces
+          Escribir "El número es: " + num_dos
+
+Fin
