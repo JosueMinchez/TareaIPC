@@ -1,0 +1,57 @@
+# TareaIPC
+Tarea IPC1
+Inicio Promedio
+
+     Var num_uno
+     Var num_dos
+     Var num_tres
+     Var num_cuatro
+     Var num_cinco
+     Var num_seis
+     Var num_siete
+     Var num_ocho 
+     Var num_nueve
+     Var num_diez
+     Var total
+     Var promedio
+
+     Escribir"Ingresa el primer número"
+     Leer(num_uno)
+
+     Escribir"Ingresa el segundo número"
+     Leer(num_dos)
+     
+     Escribir"Ingresa el tercer número"
+     Leer(num_tres)
+ 
+     Escribir"Ingresa el cuarto número"
+     Leer(num_cuatro)
+
+     Escribir"Ingresa el quinto número"
+     Leer(num_cinco)
+
+     Escribir"Ingresa el sexto número"
+     Leer(num_seis)
+
+     Escribir"Ingresa el septimo número"
+     Leer(num_siete)
+ 
+     Escribir"Ingresa el octavo número"
+     Leer(num_ocho)
+
+     Escribir"Ingresa el noveno número"
+     Leer(num_nueve)
+
+     Escribir"Ingresa el décimo número"
+     Leer(num_diez)
+
+     total = num_uno + num_dos + num_tres + num_cuatro + num_cinco + num_seis + num_siete + num_ocho + num_nueve + num_diez;
+     
+     Escribir"Tu total es: " + total;
+
+     promedio = total/10
+
+     Escribir"Tu promedio es: " + promedio
+
+
+Fin
