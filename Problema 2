@@ -1,0 +1,27 @@
+# TareaIPC
+Tarea IPC1
+Inicio Ingreso
+
+     Var edad
+     Var sexo
+
+     Escribir"¿Cuál es tu edad?
+     Leer(edad)
+    
+     Escribir"¿Cuál es tu sexo?
+     Leer(sexo)
+
+     Si (edad >= 18) entonces
+           Escribir"Si puede votar"
+     sino
+           Escribir"No puede votar"
+
+           Si (sexo = f) entonces
+                     Escribir"Mujer"
+           sino 
+                     Escribir"Hombre"
+           Finsi
+      
+      Finsi
+
+Fin
