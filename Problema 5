@@ -1,0 +1,33 @@
+# TareaIPC
+Tarea IPC1
+Inicio Password
+ 
+     Var contraseña_uno
+     Var contraseña_dos
+     Var intento
+     Var resultado
+
+     contraseña_dos = IPC1;
+     
+     Escribir" Ingrese la contraseña: "
+     Leer(contraseña_uno)
+
+     Si (intento == 1) entonces
+           Escribir"Intente de nuevo" 
+
+     Si (intento == 2) entonces
+           Escribir"Intente de nuevo"    
+
+     Si (intento == 3) entonces
+           Escribir"Intente de nuevo" 
+
+     Si (intento == 4) entonces
+           Escribir"Fallo de autenticación"
+
+     Si (intento 1,2,3 = contraseña_uno == contraseña_dos) entonces
+           Escribir"La palabra es correcta"
+        Finsi
+
+        finsi
+
+fin
